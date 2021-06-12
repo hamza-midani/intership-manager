@@ -2,9 +2,6 @@
 session_start();
 require 'db_key.php';
 
-if(isset($_SESSION['error'])) {
-    echo '<div class="red-text" >'. $_GET['error']. 'Test, this displays :=)</div>';
-}
 ?>
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
@@ -24,9 +21,9 @@ if(isset($_SESSION['error'])) {
             <div class="card-header">
                 <h3>Sign In</h3>
                 <div class="d-flex justify-content-end social_icon">
-                    <span><i class="fab fa-facebook-square"></i></span>
+                    <span><i class="fab fa-linkedin"></i></span>
                     <span><i class="fab fa-google-plus-square"></i></span>
-                    <span><i class="fab fa-twitter-square"></i></span>
+
                 </div>
             </div>
             <div class="card-body">
